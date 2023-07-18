@@ -44,7 +44,7 @@ nav{
     align-items: center;
     object-fit: cover;
 }
-.nav-logo{
+.logo-img{
     width: 60px;
 }
 .nav-title{
@@ -208,6 +208,55 @@ nav{
     border-radius: 8px;
     color: rgb(214, 213, 213);
 }
+.review{
+    max-width: 1200px;
+    margin: 50px auto;
+    gap: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.review-title{
+    font-size: 30px;
+    text-align: center;
+}
+.review-container{
+    width: 310px;
+    padding: 10px;
+    background-color: rgb(255, 216, 109);
+    border-radius: 8px;
+}
+.review-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.review img{
+    width: 40px;
+    margin-right: 20px;
+}
+.review h3{
+    margin-right: 20px;
+}
+/* footer section */
+footer{
+    padding: 50px;
+    height: 200px;
+    text-align: center;
+    background-color: #9376e0;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-img{
+    width: 80px;
+}
+
 
 
 
