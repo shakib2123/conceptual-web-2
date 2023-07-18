@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
 
 
 /* common styles */
@@ -52,4 +52,92 @@ nav{
 }
 .hive-section{
     color: #e893cf;
+}
+/* banner section style */
+.banner-container{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(112, 128, 144, 0.178);
+    padding: 10px;
+    border-radius: 10px;
+}
+.banner-info{
+    width: 50%;
+    text-align: center;
+}
+.banner-title{
+    background-image: linear-gradient(to bottom, #9376e0,
+        #e893cf);
+        color: transparent;
+        -webkit-background-clip: text;
+        font-size: 50px;
+        margin-top: 20px;
+}
+.mens-collection{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+.social-icons{
+    font-size: 30px;
+}
+.social-icons a{
+    margin: 0 5px 0;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color:#C13584;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.banner-image-container{
+    width: 50%;
+}
+.banner-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive styles */
+/* mobile device */
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-items{
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .login-btn{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-info{
+        width: 100%;
+    }
+    .banner-image-container{
+        width: 100%;
+        margin-top: 20px;
+    }
 }
