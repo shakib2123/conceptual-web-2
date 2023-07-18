@@ -154,7 +154,60 @@ nav{
     color: rgb(56, 56, 56);
     margin-top: 20px;
 }
+/* discount section */
+.discount{
+    background-color: #9376e0;
+}
+.discount-container{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.discount-image{
+    width: 50%;
+    position: relative;
 
+}
+.discount-img{
+    width: 70%;
+    display:block;
+   margin: 0 auto;
+}
+.discount-info{
+    width: 50%;
+}
+.discount-amount{
+    color: rgb(46, 46, 46);
+    background-color: rgb(255, 255, 141);
+    padding: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 65%;
+}
+.discount-info{
+    width: 50%;
+}
+.discount-title{
+    color: rgb(22, 22, 22);
+    margin-bottom: 20px;
+}
+.discount-desc{
+    margin-bottom: 20px;
+    color: rgb(29, 29, 29);
+}
+.discount-btn{
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    color: rgb(214, 213, 213);
+}
 
 
 
@@ -191,5 +244,17 @@ nav{
     .card-container{
         grid-template-columns: 1fr;
         justify-items: center;
+    }
+    .discount-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .discount-image{
+        width: 100%;
+
+    }
+    .discount-info{
+        width: 100%;
     }
 }
