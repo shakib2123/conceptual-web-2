@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+/* common styles */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* nav bar style */
+nav{
+    background-color: #9376e0;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
+.login-btn{
+    background-color: #e893cf;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.login-icon{
+    margin-left: 5px;
+    color: #9376e0;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    object-fit: cover;
+}
+.nav-logo{
+    width: 60px;
+}
+.nav-title{
+    color: white;
+}
+.hive-section{
+    color: #e893cf;
+}
