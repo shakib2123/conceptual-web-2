@@ -98,6 +98,13 @@ nav{
 .fa-twitter{
     color: #1DA1F2;
 }
+.banner-btn{
+    padding: 10px 30px;
+    margin: 20px 10px 0;
+    background: transparent;
+    border: 1px solid #9376e0;
+    border-radius: 5px;
+}
 .banner-image-container{
     width: 50%;
 }
@@ -105,7 +112,48 @@ nav{
     width: 100%;
     border-radius: 10px;
 }
+/* card section style */
+.card-container-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-container{
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card{
+    width: 300px;
+    background-color: rgba(112, 128, 144, 0.178);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+.card-img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
 
+}
+.card-title{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.card-title p a{
+    font-size: 20px;
+    margin-right: 5px;
+    color: white;
+    background-color: gray;
+    padding: 8px;
+    border-radius: 50%;
+}
+.card h3{
+    color: rgb(56, 56, 56);
+    margin-top: 20px;
+}
 
 
 
@@ -139,5 +187,9 @@ nav{
     .banner-image-container{
         width: 100%;
         margin-top: 20px;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 }
